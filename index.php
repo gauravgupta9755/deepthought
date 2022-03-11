@@ -76,10 +76,57 @@
                             <h1 id="city" class="countryname"></h1>
                         </div>
                         <div class="day">
+                            <style>
+                                .date{
+                                    font-size: 1vw;
+                                    
+                                }
+                                .curtemp {
+                                    font-size: 3vw;
+                                }
+                                .deg{
+                                    font-size: 3vw;
+                                }
+                                .mintemp{
+                                    font-size: 2vw;
+                                }
+                                .maxtemp{
+                                    font-size: 2vw;
+                                }
+                                .min_max_temp p{
+                                    font-size: 2vw;
+                                }
+                                @media only screen and (max-width: 800px){
+                                    .date{
+                                    font-size: 3vw;
+                                    
+                                }
+                                .curtemp {
+                                    font-size: 6vw;
+                                }
+                                .deg{
+                                    font-size: 6vw;
+                                }
+                                .mintemp{
+                                    font-size: 4vw;
+                                }
+                                .maxtemp{
+                                    font-size: 4vw;
+                                }
+                                .min_max_temp p{
+                                    font-size: 4vw;
+                                }
+                                .weatherstatus{
+                                    font-size: 4vw;
+                                    color:aqua;
+                                }
+                                }
+
+                            </style>
                             <p id="date" class="date"> WED | OCT 9 | 12:45</p>
                         </div>
                         <div class="temp">
-                            <h1 ><span class="curtemp"></span><span>&deg;C</span></h1>
+                            <h1 ><span class="curtemp"></span><span class="deg">&deg;C</span></h1>
                         </div>
                         <div class="min_max_temp">
                             <p>Min<span class="mintemp"></span>&deg;C | Max <span class="maxtemp"></span>&deg;C</p>

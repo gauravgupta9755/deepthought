@@ -83,7 +83,8 @@ body::-webkit-scrollbar{
    background-image:linear-gradient(transparent,white,white,white,white);
     z-index: 1000 !important;
      justify-content: center;
-  
+     position: relative;
+     top: -10%;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
@@ -99,16 +100,10 @@ body::-webkit-scrollbar{
     justify-content: center;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-}
-.fas {
-    color: white;
-    animation: zoom 3s linear infinite alternate;
-   
     
-  font-size: 40px;
-  
-} 
+    font-size: 2vw;
+}
+
 @keyframes zoom {
     form{
       
@@ -124,22 +119,21 @@ body::-webkit-scrollbar{
     
 }
 .temp{
-    margin-top: 30px;
+    margin-top: 10px;
+    
 }
-.search{
-    margin-top: 5%;
-}
-.search input{
-    border-style: none;
-    border-bottom: 2px solid black;
-    width: 100%;
-   
-}
-.search input:focus{
-  
-   outline: none;
-   
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .top{
@@ -386,7 +380,7 @@ body::-webkit-scrollbar{
     }
     .contenar{
         width: 80vw;
-        height: 53vw;
+        height: 50vw;
         background-color: black;
         margin: auto;
     }
