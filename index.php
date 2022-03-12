@@ -26,7 +26,7 @@
    <div class="nav">  
             
         <div class="left">
-            <h1 id="title_name">Ocean Of Country</h1>
+            <h1 id="title_name">Ocean Country</h1>
         </div>
         <div class="right">
             <input type="text" id="searchcountry" placeholder="Enter The Country Name" value="India">
@@ -58,6 +58,7 @@
 
             <a href=""class="map_navigate" target="_blank"> <img class="googlemap"
                     src=""
+                    alt="Google Map"
                     frameborder="0"></img></a>
             <h5>Google Map</h5>
         </div>

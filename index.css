@@ -218,6 +218,7 @@ body::-webkit-scrollbar{
 .btn{
     background-color: rgb(0, 225, 255);
     margin: 5px;
+
 }
 .all_country{
     width: 80%;
@@ -238,6 +239,7 @@ body::-webkit-scrollbar{
     height: 100%;
     width: 50%;
     overflow-y: scroll;
+    overflow-x: hidden;
     text-align: center;
     /* border: 1px solid black; */
 }
@@ -254,6 +256,7 @@ body::-webkit-scrollbar{
     font-size: 1.5vw;
     list-style: none;
     text-align: left;
+    overflow: hidden;
     
 }
 .d li:hover{
@@ -339,10 +342,10 @@ body::-webkit-scrollbar{
 
 @media only screen and (max-width: 800px) {
     .top{
-        height: 60vw;
+        height: 100vw;
     }
     .name{
-        top: 40%;
+        top: 50%;
     
     }
     #country_name{
@@ -351,6 +354,7 @@ body::-webkit-scrollbar{
     .nav{
         background-color: aliceblue;
         opacity: 0.8;
+           
     }
     .left{
         width: 20%;
@@ -359,15 +363,24 @@ body::-webkit-scrollbar{
         width: 80%;
     }
     .btn{
-       width: 14vw; 
-       font-size: 2vw;
+       width: 20vw; 
+       font-size: 4vw !important;
 
     }
     #title_name{
-        font-size: 4vw;
+        margin-top: 6vw;
+        font-size: 6vw;
         color: rgb(26, 64, 134);
     }
     
+    .d li{
+        font-size: 5vw;
+    }
+    .d li:hover{
+        font-size: 5vw;
+        cursor: pointer;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    }
     .location{
         display: inline;
     }
@@ -380,9 +393,12 @@ body::-webkit-scrollbar{
     }
     .contenar{
         width: 80vw;
-        height: 50vw;
+        height: 80vw;
         background-color: black;
         margin: auto;
+    }
+    .cloud_contenar{
+        height: 60vw;
     }
     .cloud_1{
         top: 10%;
@@ -417,6 +433,9 @@ body::-webkit-scrollbar{
         
     }
     
+    .right input{
+        width: 100%;
+    }
     
     
 }
